@@ -1,12 +1,20 @@
-<div class="p-4">
-    <div class="container">
-        <h1>Admin</h1>
-        <p>This section can only be accessed by administrators.</p>
-        <div class="list-group mb-4">
-            <button routerLink="accounts" class="list-group-item list-group-item-action text-left">Manage Accounts</button>
-            <button routerLink="employees" class="list-group-item list-group-item-action text-left">Manage Employees</button>
-            <button routerLink="departments" class="list-group-item list-group-item-action text-left">Manage Departments</button>
-            <button routerLink="requests" class="list-group-item list-group-item-action text-left">View Requests</button>
-        </div>
+<div class="admin-container">
+  <div class="admin-card">
+    <h1>Admin</h1>
+    <p class="subtitle">This section can only be accessed by administrators.</p>
+    <div class="admin-actions">
+      <button routerLink="accounts" class="admin-btn">
+        <i class="fas fa-user-cog"></i> Manage Accounts
+      </button>
+      <button routerLink="employees" class="admin-btn">
+        <i class="fas fa-users"></i> Manage Employees
+      </button>
+      <button routerLink="departments" class="admin-btn">
+        <i class="fas fa-building"></i> Manage Departments
+      </button>
+      <button routerLink="requests" class="admin-btn">
+        <i class="fas fa-eye"></i> View Requests
+      </button>
     </div>
+  </div>
 </div>
