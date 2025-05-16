@@ -1,10 +1,10 @@
 {
   "database": {
-    "host": "turntable.proxy.rlwy.net",
-    "port": 14867,
+    "host": "localhost",
+    "port": 3307,
     "user": "root",
-    "password": "QTOITaEfUKPLUgzYgITHDPZfZtyZtQiU",
-    "database": "railway"
+    "password": "",
+    "database": "node_mysql_signup_verification_apis"
   },
   "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
   "emailFrom": "info@node-mysql-signup-verification-api.com",
