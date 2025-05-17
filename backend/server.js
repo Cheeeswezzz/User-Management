@@ -8,7 +8,7 @@ const errorHandler = require('./_middleware/error-handler');
 
 
 app.use(cors({
-  origin: 'http://localhost:4200', // Angular app URL
+  origin: 'https://user-management-it71.onrender.com',
   credentials: true
 }));
 
